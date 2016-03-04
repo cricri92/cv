@@ -86,8 +86,8 @@ a:hover {
 
 .pic-bg {
 	background: url(../images/pic-bg.png) no-repeat;
-	width: 140px;
-	height: 140px;
+	width: 160px;
+	height: 160px;
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -96,7 +96,11 @@ a:hover {
 	display: table-cell;
 	margin: auto;
 	vertical-align: middle;
-	padding: 10px;
+	padding: 0px;
+}
+
+.round-pic img{
+	border-radius: 80px;
 }
 
 .navigation {

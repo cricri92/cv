@@ -947,7 +947,7 @@ article p {
 
 footer {
 	background: #f1f1f1;
-	height: 80px;
+	height: 100px;
 	padding: 20px 30px;
 	position: relative;
 	z-index: 99;
@@ -1212,6 +1212,35 @@ footer {
 
 /* #Mobile (Landscape)
 ================================================== */
+/* Design for a widht of 360px */
+
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+	
+	.container {
+		max-width: 350px;
+		width: 350px;
+		margin: 0 auto;
+		padding: 0;
+	}
+
+	.navigation li a i {
+		text-align: center;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.services-info ul li {
+		width: 50%;
+	}
+
+	#portfolio .item {
+		width: 49%;
+	}
+
+	footer {
+		height: 150px;
+	}
+}
 
 /* Note: Design for a width of 480px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
@@ -1234,6 +1263,45 @@ footer {
 
 #portfolio .item {
 	width: 49%;
+}
+
+footer {
+	height: 130px;
+}
+}
+/*Design for 768px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.container {
+		max-width: 758px;
+		width: 758px;
+		margin: 0 auto;
+	}
+
+	.navigation li a i {
+		text-align: center;
+		display: table;
+		margin: 0 auto;
+	}
+
+	.services-info ul li {
+		width: 50%;
+	}
+
+	#portfolio .item {
+		width: 49%;
+	}
+
+	footer {
+		height: 120px;
+	}
+
+	footer .rights p{
+		margin-top: 10px;
+		padding-top: 10px;
+		width: 100%;
+	}
 }
 
 }

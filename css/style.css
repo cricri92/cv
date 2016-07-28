@@ -543,7 +543,7 @@ a:hover {
 	left: 0px;
 }
 
-.skill1, .skill2, .skill3, .skill4, .skill5 {
+.skill10, .skill20, .skill30, .skill40, .skill5, .skill6, .skill7 {
 	width: 0px;
 	-webkit-transition: all .7s ease-in-out;
 	-moz-transition: all .7s ease-in-out;
